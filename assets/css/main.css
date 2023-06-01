@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Moon Dance";
+  src: url(../fonts/MoonDance-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/);
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+body {
+  min-height: 100vh;
+  color: #eee;
+  background-image: linear-gradient(to bottom right, #197d9f, #493f6f);
+}
+.item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.item h2 {
+  position: absolute;
+  bottom: 10px;
+  padding: 0 20px;
+  background-image: linear-gradient(to bottom right, #197d9f, #493f6f);
+}
+.overlay-item {
+  width: 65%;
+  height: 70%;
+  background-image: url();
+  background-size: 100% 100%;
+}
+.overlay-item i {
+  cursor: pointer;
+}
+

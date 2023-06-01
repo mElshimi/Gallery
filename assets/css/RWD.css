@@ -1,0 +1,17 @@
+/* ******* desktop ******************** */
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  h2 {
+    font-size: 150%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1201px) {
+  h2 {
+    font-size: 135%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .overlay-item {
+    width: 95%;
+    height: 50%;
+  }
+}
